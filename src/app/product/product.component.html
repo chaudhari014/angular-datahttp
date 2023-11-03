@@ -1,0 +1,10 @@
+<div *ngFor="let product of productData" class="product-card">
+  <div>
+    <div class="product-image"><img [src]="product.image" alt="" /></div>
+    <h2 class="product-title">Title: {{ product.title }}</h2>
+    <p class="product-description">Description: {{ product.description }}</p>
+    <p class="product-rating">Rating: {{ product.rating }}</p>
+    <p class="product-category">Category: {{ product.category }}</p>
+    <p class="product-price">Price: {{ product.price }}</p>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+/* Add this CSS to your component's CSS file, e.g., product-card.component.css */
+
+.product-card {
+  border: 1px solid #ddd;
+  margin: 10px;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.product-card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-card p {
+  font-size: 14px;
+  margin: 5px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Hover effect */
+.product-card:hover {
+  background-color: #f4f4f4;
+  transform: translateY(-5px);
+}
+.product-image {
+  width: 100%;
+}
+.product-image img {
+  height: 200px;
+}
